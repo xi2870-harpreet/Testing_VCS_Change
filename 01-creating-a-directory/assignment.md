@@ -12,12 +12,28 @@ tabs:
   title: Shell
   type: terminal
   hostname: container
+- id: jwksxbgjxl1l
+  title: test_website
+  type: website
+  url: https://github.com/elastic/rally-tracks
+  new_window: true
+- id: 5ob1luhmknzy
+  title: test
+  type: website
+  url: http://host.${_SANDBOX_ID}.instruqt.io
+  new_window: true
+- id: mipv5gzbe4q0
+  title: shell_k8
+  type: terminal
+  hostname: test-kubernetes
 difficulty: basic
 timelimit: 600
 lab_config:
   default_layout_sidebar_size: 0
 ---
 This is original track
+
+Now this is duplicated track.
 
 🤖 Let's start
 ==============

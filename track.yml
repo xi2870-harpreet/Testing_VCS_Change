@@ -1,6 +1,6 @@
 slug: duplicate-testing-copy
 id: sa4my4k1jwi2
-revision: -62135596800
+revision: 1
 title: Sandbox container Copy Copy
 teaser: Get started quickly with a single container-based sandbox host
 description: Get started quickly with a container-based sandbox host. Choose a container
@@ -12,7 +12,7 @@ developers:
 - hrushikesh@instruqt.com
 instructors: []
 idle_timeout: 0
-timelimit: 0
+timelimit: 11100
 lab_config:
   extend_ttl: 0
   sidebar_enabled: true
