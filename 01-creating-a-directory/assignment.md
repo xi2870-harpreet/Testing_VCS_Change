@@ -26,24 +26,32 @@ tabs:
   title: shell_k8
   type: terminal
   hostname: test-kubernetes
+- id: ndd0ehumhiqq
+  title: test-vm
+  type: terminal
+  hostname: test-vm
 difficulty: basic
 timelimit: 600
 lab_config:
   default_layout_sidebar_size: 0
 ---
-This is original track
+Section 1
+===
+Section 1 Code
 
-Now this is duplicated track.
+Section 2
+===
+Section 2 Code
 
-🤖 Let's start
-==============
+Section 3
+===
+Section 3 Code
 
-Create a directory with the name `instruqt` to complete this challenge.
+Section 4
+===
+Section 4 Code
 
-Use the `mkdir` command to create the directory:
 
-```
-mkdir instruqt
-```
+```run
 
-To complete this track click the **Check** button.
+```echo "hello world"

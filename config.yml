@@ -35,3 +35,13 @@ virtualmachines:
   - http
   - high-ports
   - https
+- name: test-vm
+  image: ubuntu-os-cloud/ubuntu-2404-noble-amd64-v20241004
+  shell: /bin/bash
+  machine_type: n1-standard-1
+  memory: 4096
+  cpus: 1
+  allow_external_ingress:
+  - http
+  - https
+  - high-ports
